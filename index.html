@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Podcast Growth, Done-For-You | [Your Name]</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="We edit, clip, brand, distribute and grow your podcast—so you can keep billing $500-$1,500/hr while your show builds authority on autopilot.">
+  <style>
+    :root {
+      --accent: #ff4d00;
+      --dark: #111;
+      --light: #fefefe;
+      --gray: #666;
+      --bg: #fafafa;
+      --max: 1100px;
+      --font: "Inter", system-ui, sans-serif;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: var(--font);
+      background: var(--bg);
+      color: var(--dark);
+      line-height: 1.6;
+    }
+    img { max-width: 100%; display: block; }
+    a { color: inherit; text-decoration: none; }
+    .btn {
+      display: inline-block;
+      background: var(--accent);
+      color: #fff;
+      padding: 0.75rem 1.5rem;
+      border-radius: 4px;
+      font-weight: 600;
+      transition: .2s;
+    }
+    .btn:hover { filter: brightness(1.1); }
+    header {
+      background: var(--dark);
+      color: var(--light);
+      padding: 1rem 0;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+    nav {
+      max-width: var(--max);
+      margin: auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 1rem;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1.5rem;
+    }
+    section {
+      max-width: var(--max);
+      margin: auto;
+      padding: 4rem 1rem;
+    }
+    .hero {
+      display: grid;
+      gap: 2rem;
+      align-items: center;
+    }
+    @media (min-width: 800px) {
+      .hero { grid-template-columns: 1fr 1fr; }
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      line-height: 1.2;
+    }
+    .hero p {
+      margin: 1rem 0 2rem;
+      color: var(--gray);
+    }
+    .logos {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      justify-content: center;
+      margin-top: 2rem;
+      opacity: .4;
+      font-size: .9rem;
+    }
+    .cards {
+      display: grid;
+      gap: 2rem;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+    .card {
+      background: #fff;
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,.05);
+    }
+    .card h3 {
+      margin-bottom: .75rem;
+      display: flex;
+      align-items: center;
+      gap: .5rem;
+    }
+    .check {
+      width: 20px;
+      height: 20px;
+      background: var(--accent);
+      border-radius: 50%;
+      display: inline-block;
+      position: relative;
+    }
+    .check::after {
+      content: "";
+      position: absolute;
+      left: 6px;
+      top: 2px;
+      width: 5px;
+      height: 10px;
+      border: solid #fff;
+      border-width: 0 2px 2px 0;
+      transform: rotate(45deg);
+    }
+    .price {
+      background: var(--dark);
+      color: var(--light);
+      border-radius: 8px;
+      padding: 3rem 2rem;
+      text-align: center;
+    }
+    .price h2 {
+      font-size: 3rem;
+      margin: 1rem 0;
+    }
+    .price ul {
+      list-style: none;
+      margin: 2rem auto;
+      max-width: 300px;
+      text-align: left;
+    }
+    .price li {
+      margin: .5rem 0;
+      display: flex;
+      align-items: start;
+      gap: .5rem;
+    }
+    form {
+      display: grid;
+      gap: 1rem;
+      max-width: 600px;
+      margin: auto;
+    }
+    input, textarea {
+      width: 100%;
+      padding: .75rem 1rem;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      font: inherit;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: .9rem;
+      color: var(--gray);
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div><strong>PodcastDFY</strong></div>
+      <ul>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#price">Pricing</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div>
+      <h1>Your podcast edited, clipped, branded &amp; distributed—while you keep billing $500-$1,500/hr.</h1>
+      <p>We turn one raw recording into a polished episode, 5-7 short-form reels, thumbnail pack, show notes, email blast &amp; weekly analytics. You press record. We handle the rest.</p>
+      <a class="btn" href="#contact">Book a 10-min fit call</a>
+    </div>
+    <div>
+      <img src="https://images.unsplash.com/photo-1590602847861-f357a9332bbc?auto=format&fit=crop&w=800&q=60" alt="Professional recording">
+    </div>
+  </section>
+
+  <section id="services">
+    <h2 style="text-align:center;margin-bottom:2rem">Everything included every single month</h2>
+    <div class="cards">
+      <div class="card">
+        <h3><span class="check"></span> Studio-grade editing</h3>
+        <p>Noise reduction, intro/outro, ID3 tags, loudness standardization. Ready for Apple, Spotify, YouTube.</p>
+      </div>
+      <div class="card">
+        <h3><span class="check"></span> Short-form clips</h3>
+        <p>5–7 subtitled vertical reels (1080×1920) optimized for LinkedIn, Instagram, TikTok &amp; YouTube Shorts.</p>
+      </div>
+      <div class="card">
+        <h3><span class="check"></span> Thumb-stopping thumbnails</h3>
+        <p>Scroll-proof cover art for each episode + 3 variations for A/B tests on YouTube.</p>
+      </div>
+      <div class="card">
+        <h3><span class="check"></span> Full distribution</h3>
+        <p>We upload, schedule, write SEO titles &amp; show notes, and push to Apple, Spotify, Google, Amazon, Stitcher, Pocket Casts, Overcast, RSS, plus your YouTube channel.</p>
+      </div>
+      <div class="card">
+        <h3><span class="check"></span> Analytics dashboard</h3>
+        <p>Weekly email with downloads, retention heat-maps, top episodes, and clip performance so you see ROI.</p>
+      </div>
+      <div class="card">
+        <h3><span class="check"></span> Light newsletter support</h3>
+        <p>We draft a 200-word broadcast email you can paste into Mailchimp / ConvertKit to notify subscribers of new episodes.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="price" id="price">
+    <h2>$2,500<span style="font-size:1rem;font-weight:normal">/month</span></h2>
+    <p>Flat fee. No hidden upsells. Cancel anytime with 30 days notice.</p>
+    <ul>
+      <li><span class="check"></span> 4 episodes per month (up to 60 min raw each)</li>
+      <li><span class="check"></span> 20-28 clips delivered weekly</li>
+      <li><span class="check"></span> 48-hr turnaround per episode</li>
+      <li><span class="check"></span> Dedicated Slack/Email thread</li>
+      <li><span class="check"></span> 100% white-label (your branding)</li>
+    </ul>
+    <a class="btn" href="#contact">Apply to become a client</a>
+  </section>
+
+  <section id="contact">
+    <h2 style="text-align:center;margin-bottom:2rem">Ready to reclaim 10+ hours a month?</h2>
+    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+      <input type="text" name="name" placeholder="Name" required>
+      <input type="email" name="email" placeholder="Work email" required>
+      <input type="url" name="podcast" placeholder="Link to your current/existing podcast (or leave blank)">
+      <textarea name="message" rows="5" placeholder="Tell us about your show, episode frequency, and what you'd like to offload." required></textarea>
+      <button class="btn" type="submit">Send application</button>
+    </form>
+  </section>
+
+  <footer>
+    © 2025 PodcastDFY — Built for lawyers, advisors, surgeons &amp; boutique consultants who value time.
+  </footer>
+
+  <script>
+    // Smooth scroll for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', e => {
+        e.preventDefault();
+        document.querySelector(a.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
+      });
+    });
+  </script>
+</body>
+</html>
